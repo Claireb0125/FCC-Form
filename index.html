@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunch Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<Body>
+    <form>
+        <div>
+
+            <h1>School Field Day Lunch Form</h1>
+            <p>Let's have a day of fun in the sun!</p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name..." required>
+        </div>
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email..." required>
+        </div>
+        <div>
+            <label for="options">Food Options:</label>
+            <select name="food" id="food" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="hotdog">($5) Hotdog w/ Chips</option>
+                    <option value="burger">($6) Hamburger w/ Chips</option>
+                    <option value="pizza">($5) 2 Pizza Slices</option>
+                </select>
+        </div>
+        <div>
+            <label for="drink">Drink Options:</label>
+            <input type="radio" id="soda" name="drink">($1) Soda
+            <input type="radio" id="water" name="drink">($.50) Water
+        </div>
+        <div>
+            <label for="questions">Questons?</label>
+            <textarea placeholder="Questions or Concerns?"></textarea>
+        </div>
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+</Body>
+
+</html>
